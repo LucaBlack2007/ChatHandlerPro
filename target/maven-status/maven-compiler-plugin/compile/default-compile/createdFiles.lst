@@ -1,0 +1,7 @@
+com\lucasprojects\chathandlerpro\ConfigurationReloadCommnad$1.class
+com\lucasprojects\chathandlerpro\MuteChatCommand.class
+com\lucasprojects\chathandlerpro\Main.class
+com\lucasprojects\chathandlerpro\ConfigurationReloadCommnad.class
+com\lucasprojects\chathandlerpro\Events.class
+com\lucasprojects\chathandlerpro\BroadcastCommand.class
+com\lucasprojects\chathandlerpro\ClearChatCommand.class

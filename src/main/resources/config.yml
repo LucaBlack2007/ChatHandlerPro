@@ -1,0 +1,43 @@
+server:
+
+  # preifx used in each command, set to get rid of everything inside of the quotes if you don't want a prefix.
+  server-prefix: '&b&lSERVER &8| &7'
+
+  # variable used within the config.yml to represent a player's in-game-name.
+  player-variable: '<PLAYER>'
+
+  # permission required to run the /bc or /broadcast command.
+  broadcast-permission: 'chathandlerpro.broadcast.command'
+
+mutechat:
+
+  # message sent to people once the chat has been muted.
+  mutechat-message: '&b<PLAYER> &7muted the chat!'
+
+  # message sent to everyone once the chat has been unmuted.
+  unmutechat-message: '&b<PLAYER> &7unmuted the chat!'
+
+  # permission required to excecute the /mutechat command.
+  mutechat-command-permission: 'chathandlerpro.mutechat.command'
+
+  # permission required to talk when the chat is muted.
+  mutechat-override-permission: 'chathandlerpro.mutechat.allowchat'
+
+clearchat:
+
+  # message sent to clear that chat
+  clearchat-message: '&b<PLAYER> &7cleared the chat!'
+
+  # permission assosiated with being able to clear chat.
+  clearchat-command-permission: 'chathandlerpro.clearchat.command'
+
+  # set this to true if you'd like the chat only to clear for people without the given permission.
+  clearchat-ignore-staff: false
+
+coloredchat:
+
+  # character used as the character next to color-codes.
+  coloredchat-character: '&'
+
+  # permission required to use color codes inside of the chat.
+  coloredchat-permission: 'chathandlerpro.coloredchat'

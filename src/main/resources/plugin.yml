@@ -1,0 +1,17 @@
+name: ChatHandlerPro
+version: ${project.version}
+main: com.lucasprojects.chathandlerpro.Main
+api-version: 1.16
+commands:
+  broadcast:
+    aliases: [handlerbc, bc, handlerbroadcast]
+    description: Broadcasts a message.
+  mutechat:
+    aliases: [handlermutechat]
+    description: Command that mutes the chat, and only specific people have access to chat while thus is muted.
+  clearchat:
+    aliases: [cc, handlerclearchat, handlercc]
+    description: Clears the chat.
+  chathandlerpro:
+    aliases: [chp]
+    description: Util command; reloads config.
